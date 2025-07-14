@@ -22,3 +22,15 @@ console.log(typeof array_1)
 console.log(typeof object_1)
 console.log(typeof function_1)
 console.log(typeof outsidetemp)
+//memory stack and heap
+//stack memeory used in premitive datatype
+//heap memeory used in nonpremitive or reference
+let test1="hello"
+let test2=test1
+console.log(test2)
+let test3={
+     x:"hello",
+     y:"world"
+}
+let test4=test3
+console.log(test4)
